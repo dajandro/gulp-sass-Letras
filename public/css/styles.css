@@ -1,0 +1,116 @@
+/*
+  Daniel Orozco 13312
+  UVG
+  Sistemas y Tecnologias Web
+  2016
+*/
+/*
+	Variables
+*/
+/*
+	Funciones
+*/
+/*
+	Propiedades de todos los elementos contenedores
+*/
+.box {
+  height: 200px;
+  margin-bottom: 10px; }
+
+.clear {
+  clear: both; }
+
+/*
+	Colores y propiedades de los contenedores
+*/
+.b1 {
+  background: #7aeb7a; }
+
+.b2 {
+  background: #64e764; }
+
+.b3 {
+  background: #4ee44e; }
+
+.b4 {
+  height: 75px;
+  margin-bottom: 10px;
+  padding-right: 150px;
+  position: relative; }
+
+.b4 input[type="text"] {
+  background: lightblue;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.b4 input[type="button"] {
+  background: gray;
+  float: right;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px; }
+
+.b5 {
+  background: #22dd22; }
+
+.b6 {
+  background: #1ec71e; }
+
+.b7 {
+  background: #1bb01b; }
+
+.b8 {
+  background: #189a18; }
+
+/*
+	MEDIA QUERIES PARA HACERLO RESPONSIVE
+*/
+/* TABLET */
+@media only screen and (min-width: 480px) {
+  .first-column-wrapper-3,
+  .second-column-wrapper-3 {
+    box-sizing: border-box;
+    float: left;
+    width: 50%; }
+  .first-column-wrapper-3 {
+    padding-right: 5px; }
+  .second-column-wrapper-3 {
+    padding-left: 5px; }
+  .third-column-wrapper-3 {
+    box-sizing: border-box;
+    clear: both; }
+  .first-column-wrapper-2,
+  .second-column-wrapper-2 {
+    box-sizing: border-box;
+    float: left;
+    width: 100%; } }
+
+/* PC */
+@media only screen and (min-width: 768px) {
+  .first-column-wrapper-3,
+  .second-column-wrapper-3 {
+    width: 33.33%; }
+  .second-column-wrapper-3 {
+    padding-right: 5px; }
+  .first-column-wrapper-2,
+  .second-column-wrapper-2 {
+    box-sizing: border-box;
+    float: left;
+    width: 50%; }
+  .first-column-wrapper-2 {
+    padding-right: 5px; }
+  .second-column-wrapper-2 {
+    padding-left: 5px; }
+  .third-column-wrapper-3 {
+    clear: none;
+    float: left;
+    padding-left: 5px;
+    width: 33.34%; }
+  .b4 {
+    clear: both; }
+  .b8 {
+    clear: both; } }
