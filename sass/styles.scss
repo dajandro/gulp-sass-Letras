@@ -36,7 +36,7 @@ $txt-align: center;
     width: $box-size;
 }
 
-@for $i from 1 through ($box-qty+1){
+@for $i from 1 through ($box-qty){
   .letter-box.l#{$i}{
       background: darken($base-color, $step-color*$i);
       left: $base-left + ($i - 1)*55px;
