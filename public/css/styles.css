@@ -4,113 +4,60 @@
   Sistemas y Tecnologias Web
   2016
 */
-/*
-	Variables
-*/
-/*
-	Funciones
-*/
-/*
-	Propiedades de todos los elementos contenedores
-*/
-.box {
-  height: 200px;
-  margin-bottom: 10px; }
-
-.clear {
-  clear: both; }
-
-/*
-	Colores y propiedades de los contenedores
-*/
-.b1 {
-  background: #7aeb7a; }
-
-.b2 {
-  background: #64e764; }
-
-.b3 {
-  background: #4ee44e; }
-
-.b4 {
-  height: 75px;
-  margin-bottom: 10px;
-  padding-right: 150px;
+.container {
   position: relative; }
 
-.b4 input[type="text"] {
-  background: lightblue;
-  box-sizing: border-box;
-  display: block;
-  height: 100%;
-  width: 100%; }
-
-.b4 input[type="button"] {
-  background: gray;
-  float: right;
-  height: 100%;
+.letter-box {
+  border: 2px solid black;
+  color: white;
+  font: 30px bold;
+  height: 40px;
+  line-height: 40px;
+  padding: 15px;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 150px; }
+  text-align: center;
+  width: 40px; }
 
-.b5 {
-  background: #22dd22; }
+.letter-box.l1 {
+  background: #71e971;
+  left: 100px;
+  top: 410px; }
 
-.b6 {
-  background: #1ec71e; }
+.letter-box.l2 {
+  background: #52e552;
+  left: 155px;
+  top: 360px;
+  z-index: 3; }
 
-.b7 {
-  background: #1bb01b; }
+.letter-box.l3 {
+  background: #33e033;
+  left: 210px;
+  top: 310px;
+  z-index: 2; }
 
-.b8 {
-  background: #189a18; }
+.letter-box.l4 {
+  background: #20cf20;
+  left: 265px;
+  top: 260px; }
 
-/*
-	MEDIA QUERIES PARA HACERLO RESPONSIVE
-*/
-/* TABLET */
-@media only screen and (min-width: 480px) {
-  .first-column-wrapper-3,
-  .second-column-wrapper-3 {
-    box-sizing: border-box;
-    float: left;
-    width: 50%; }
-  .first-column-wrapper-3 {
-    padding-right: 5px; }
-  .second-column-wrapper-3 {
-    padding-left: 5px; }
-  .third-column-wrapper-3 {
-    box-sizing: border-box;
-    clear: both; }
-  .first-column-wrapper-2,
-  .second-column-wrapper-2 {
-    box-sizing: border-box;
-    float: left;
-    width: 100%; } }
+.letter-box.l5 {
+  background: #1bb01b;
+  left: 320px;
+  top: 210px;
+  z-index: 2; }
 
-/* PC */
-@media only screen and (min-width: 768px) {
-  .first-column-wrapper-3,
-  .second-column-wrapper-3 {
-    width: 33.33%; }
-  .second-column-wrapper-3 {
-    padding-right: 5px; }
-  .first-column-wrapper-2,
-  .second-column-wrapper-2 {
-    box-sizing: border-box;
-    float: left;
-    width: 50%; }
-  .first-column-wrapper-2 {
-    padding-right: 5px; }
-  .second-column-wrapper-2 {
-    padding-left: 5px; }
-  .third-column-wrapper-3 {
-    clear: none;
-    float: left;
-    padding-left: 5px;
-    width: 33.34%; }
-  .b4 {
-    clear: both; }
-  .b8 {
-    clear: both; } }
+.letter-box.l6 {
+  background: #169216;
+  left: 375px;
+  top: 160px;
+  z-index: 3; }
+
+.letter-box.l7 {
+  background: #127312;
+  left: 430px;
+  top: 110px; }
+
+.letter-box.l8 {
+  background: #0d540d;
+  left: 485px;
+  top: 60px; }
